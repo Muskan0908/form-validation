@@ -4,7 +4,7 @@ import './form.css';
 const FormSuccess = ({submitForm,values}) => {
     
     return (
-        <div>
+        <div style={{"overflow-x":"auto"}}>
             
             <table>
                 <h2>Entries</h2>
